@@ -62,20 +62,22 @@ THEN I am able to successfully create, update, and delete data in my database
 
 To install the ORM E-Commerce Background application, follow the following steps:
 
-**EDIT HERE!!*****
-
-1. Clone the repository to your local machine: `git clone https://github.com/vaughanknouse/SQL-employee-tracker.git`.
+1. Clone the repository to your local machine: `https://github.com/vaughanknouse/ORM-ecommerce-backend.git`.
 2. Ensure that the current version of Node.js is installed.
 3. Open the cloned repository in a CLI, such as Visual Studio Code.
 4. Navigate to the project directory in your terminal.
 5. Initialize a project with `package.json` by typing `npm init -y` in the terminal.
-6. Install npm’s `inquirer` version 8.2.4 package by typing `npm i inquirer@8.2.4` in the terminal.
-7. Install npm’s `pg` package by typing `npm install pg` in the terminal.
-8. Install any other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device.
+
+**EDIT HERE!!*****
+1. Install npm’s `inquirer` version 8.2.4 package by typing `npm i inquirer@8.2.4` in the terminal.
+2. Install npm’s `pg` package by typing `npm install pg` in the terminal.
+3. Install any other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device.
 
 ## Usage ***
 
 To use the ORM E-Commerce Background application, follow the following steps:
+
+8. For unit testing instructions, navigate to the "Test Instructions" section of the README. 
 
 **EDIT HERE!!*****
 
@@ -86,7 +88,6 @@ To use the ORM E-Commerce Background application, follow the following steps:
 5. Seed the `company_db` database with some employee information by typing the command `\i db/seeds.sql` in the terminal.
 6. Once your PostgreSQL database is active, navigate to the project directory and run the application by typing `node index.js` in the terminal.
 7. Select your desired action from the command line prompts using the ‘UP’ and ‘DOWN’ arrow keys on your keyboard in order to update the company’s employee database.
-8. For unit testing instructions, navigate to the "Test Instructions" section of the README. 
 
 
 ### Screenshots: ***
