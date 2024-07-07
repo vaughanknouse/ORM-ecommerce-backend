@@ -12,9 +12,9 @@
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
-  - [Technologies Used \*\*\*](#technologies-used-)
+  - [Technologies Used](#technologies-used)
   - [Features \*\*\*](#features-)
-  - [Installation \*\*\*](#installation-)
+  - [Installation](#installation)
   - [Usage \*\*\*](#usage-)
     - [Screenshots: \*\*\*](#screenshots-)
   - [Tests \*\*\*](#tests-)
@@ -47,7 +47,7 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-## Technologies Used ***
+## Technologies Used 
 
 - Node.js
 - Express.js
@@ -58,7 +58,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ## Features ***
 
 
-## Installation ***
+## Installation
 
 To install the ORM E-Commerce Background application, follow the following steps:
 
@@ -67,11 +67,16 @@ To install the ORM E-Commerce Background application, follow the following steps
 3. Open the cloned repository in a CLI, such as Visual Studio Code.
 4. Navigate to the project directory in your terminal.
 5. Initialize a project with `package.json` by typing `npm init -y` in the terminal.
-
-**EDIT HERE!!*****
-1. Install npm’s `inquirer` version 8.2.4 package by typing `npm i inquirer@8.2.4` in the terminal.
-2. Install npm’s `pg` package by typing `npm install pg` in the terminal.
-3. Install any other necessary dependencies by typing `npm i` in the command line to ensure that the `node-modules` folder is operating on your local device.
+6. Install the necessary dependencies by typing `npm install` in the command line to ensure that the `node-modules` folder is operating on your local device and that a `package-lock.json` file is present.
+7. To set up environment variables, create a `.env` file in the root directory and add the following:
+   ```
+   DB_NAME='ecommerce_db'
+   DB_USER='your_postgresql_username'
+   DB_PASSWORD='your_postgresql_password'
+   ```
+     - Note: for `'your_postgresql_username'` enter your PostgreSQL username and for `'your_postgresql_password'` enter your PostgreSQL password.
+8. Ensure that PostgreSQL is installed on your computer to initialize the database.
+9.  Ensure that Insomnia is installed on your computer for unit testing.
 
 ## Usage ***
 
@@ -81,13 +86,12 @@ To use the ORM E-Commerce Background application, follow the following steps:
 
 **EDIT HERE!!*****
 
-1. Ensure that PostgreSQL is installed on your computer.
-2. Open the Postgres Shell by typing the command `psql -U postgres` in the terminal.
-3. Enter your user database password.
-4. Create the `company_db` database by typing the command `\i db/schema.sql` in the terminal.
-5. Seed the `company_db` database with some employee information by typing the command `\i db/seeds.sql` in the terminal.
-6. Once your PostgreSQL database is active, navigate to the project directory and run the application by typing `node index.js` in the terminal.
-7. Select your desired action from the command line prompts using the ‘UP’ and ‘DOWN’ arrow keys on your keyboard in order to update the company’s employee database.
+1. Open the Postgres Shell by typing the command `psql -U postgres` in the terminal.
+2. Enter your user database password.
+3. Create the `company_db` database by typing the command `\i db/schema.sql` in the terminal.
+4. Seed the `company_db` database with some employee information by typing the command `\i db/seeds.sql` in the terminal.
+5. Once your PostgreSQL database is active, navigate to the project directory and run the application by typing `node index.js` in the terminal.
+6. Select your desired action from the command line prompts using the ‘UP’ and ‘DOWN’ arrow keys on your keyboard in order to update the company’s employee database.
 
 
 ### Screenshots: ***
