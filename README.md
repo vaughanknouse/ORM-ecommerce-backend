@@ -18,7 +18,7 @@
     - [Screenshots: \*\*\*](#screenshots-)
   - [Tests](#tests)
   - [Links \*\*\*](#links-)
-  - [Credits \*\*\*](#credits-)
+  - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions)
 
@@ -101,6 +101,7 @@ The following screenshot demonstrates the application's functionality and appear
 
 ![Shows GET route to display all categories.](assets/images/POST-products-screenshot.png)
 
+
 ## Tests
 
 Test the following API routes using Insomnia or a similar API client:
@@ -124,7 +125,7 @@ GitHub Repository: https://github.com/vaughanknouse/ORM-ecommerce-backend
 
 Walkthrough Video Link: ***
 
-## Credits ***
+## Credits
 Used the following starter code and sources as tutorials and guidelines: ***
 
 Starter code provided by UT Austin Coding Boot Camp at the following repository: https://github.com/coding-boot-camp/bookish-sniffle
