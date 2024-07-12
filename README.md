@@ -15,9 +15,9 @@
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [Usage](#usage)
-    - [Screenshots: \*\*\*](#screenshots-)
+    - [Screenshots:](#screenshots)
   - [Tests](#tests)
-  - [Links \*\*\*](#links-)
+  - [Links](#links)
   - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions)
@@ -89,7 +89,7 @@ To use the ORM E-Commerce Background application, follow the following steps:
 7. For unit testing instructions, navigate to the "Tests" section of the README. 
 
 
-### Screenshots: ***
+### Screenshots:
 
 The following screenshot demonstrates the application's functionality and appearance:
 
@@ -99,7 +99,7 @@ The following screenshot demonstrates the application's functionality and appear
 
 **POST route to add a new product:**
 
-![Shows GET route to display all categories.](assets/images/POST-products-screenshot.png)
+![Shows GET route to display all categories.](assets/images/POST-product-screenshot.png)
 
 
 ## Tests
@@ -127,14 +127,16 @@ Test the following API routes using Insomnia or a similar API client:
   - PUT `/api/tags/:id`: Update a tag by id.
   - DELETE `/api/tags/:id`: Delete a tag by id.
 
-## Links ***
+
+## Links 
 
 GitHub Repository: https://github.com/vaughanknouse/ORM-ecommerce-backend
 
-Walkthrough Video Link: ***
+Walkthrough Video Link: https://drive.google.com/file/d/1Ik5bEE1xRbyZkW1wiF6kQTm_2MhISXGF/view?usp=sharing
+
 
 ## Credits
-Used the following starter code and sources as tutorials and guidelines: ***
+Used the following starter code and sources as tutorials and guidelines:
 
 Starter code provided by UT Austin Coding Boot Camp at the following repository: https://github.com/coding-boot-camp/bookish-sniffle
 
@@ -145,9 +147,11 @@ ChatGPT: https://chatgpt.com/?oai-dm=1
 Also utilized the Xpert Learning Assistant for some portions of my code:
 https://bootcampspot.instructure.com/courses/5293/external_tools/313
 
+
 ## License
 
 This project is licensed under the MIT license. For more information, please visit [this link](https://opensource.org/licenses/MIT).
+
 
 ## Questions
 
