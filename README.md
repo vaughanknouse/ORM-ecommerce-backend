@@ -13,11 +13,10 @@
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
   - [Technologies Used](#technologies-used)
-  - [Features \*\*\*](#features-)
   - [Installation](#installation)
-  - [Usage \*\*\*](#usage-)
+  - [Usage](#usage)
     - [Screenshots: \*\*\*](#screenshots-)
-  - [Tests \*\*\*](#tests-)
+  - [Tests](#tests)
   - [Links \*\*\*](#links-)
   - [Credits \*\*\*](#credits-)
   - [License](#license)
@@ -56,8 +55,6 @@ THEN I am able to successfully create, update, and delete data in my database
 - pg package
 - dotenv
 
-## Features ***
-
 
 ## Installation
 
@@ -79,33 +76,47 @@ To install the ORM E-Commerce Background application, follow the following steps
 8. Ensure that PostgreSQL is installed on your computer to initialize the database.
 9.  Ensure that Insomnia is installed on your computer for unit testing.
 
-## Usage ***
+## Usage
 
 To use the ORM E-Commerce Background application, follow the following steps:
 
-8. For unit testing instructions, navigate to the "Test Instructions" section of the README. 
-
-**EDIT HERE!!*****
-
 1. Open the Postgres Shell by typing the command `psql -U postgres` in the terminal.
 2. Enter your user database password.
-3. Create the `company_db` database by typing the command `\i db/schema.sql` in the terminal.
-4. Seed the `company_db` database with some employee information by typing the command `\i db/seeds.sql` in the terminal.
-5. Once your PostgreSQL database is active, navigate to the project directory and run the application by typing `node index.js` in the terminal.
-6. Select your desired action from the command line prompts using the ‘UP’ and ‘DOWN’ arrow keys on your keyboard in order to update the company’s employee database.
+3. Create the `employee_db` database by typing the command `\i db/schema.sql` in the terminal.
+4. Close out of the Postgres Shell by entering `Control + C`.
+5. Seed the database by entering `npm run seed` in the terminal.
+6. Once your PostgreSQL database is active, navigate to the project directory and start the application by typing `npm start` in the terminal.
+7. For unit testing instructions, navigate to the "Tests" section of the README. 
 
 
 ### Screenshots: ***
 
 The following screenshot demonstrates the application's functionality and appearance:
 
-**Image of the application being run in the command line showing user input prompts:**
+**GET route to display all categories:**
 
-![Shows application being run in the command line showing user input prompts.](assets/images/user-input-screenshot.png)
+![Shows GET route to display all categories.](assets/images/GET-categories-screenshot.png)
 
-## Tests ***
+**POST route to add a new product:**
 
-To perform unit testing using Insomnia, ***
+![Shows GET route to display all categories.](assets/images/POST-products-screenshot.png)
+
+## Tests
+
+Test the following API routes using Insomnia or a similar API client:
+
+- GET `/api/categories`
+- GET `/api/products`
+- GET `/api/tags`
+- POST `/api/categories`
+- POST `/api/products`
+- POST `/api/tags`
+- PUT `/api/categories/:id`
+- PUT `/api/products/:id`
+- PUT `/api/tags/:id`
+- DELETE `/api/categories/:id`
+- DELETE `/api/products/:id`
+- DELETE `/api/tags/:id`
 
 ## Links ***
 
