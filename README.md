@@ -82,7 +82,7 @@ To use the ORM E-Commerce Background application, follow the following steps:
 
 1. Open the Postgres Shell by typing the command `psql -U postgres` in the terminal.
 2. Enter your user database password.
-3. Create the `ecommerce_db` database by typing the command `\i db/schema.sql` in the terminal.
+3. Create the `ecommerce_db` database by typing the command `\i db/schema.sql;` in the terminal.
 4. Close out of the Postgres Shell by entering `Control + C`.
 5. Seed the database by entering `npm run seed` in the terminal.
 6. Once your PostgreSQL database is active, navigate to the project directory and start the application by typing `npm start` in the terminal.
