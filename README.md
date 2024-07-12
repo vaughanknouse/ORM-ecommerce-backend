@@ -2,13 +2,16 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-## Description ***
+## Description
+E-commerce platforms are quite prevalent throughout the business and economic environments and understanding the fundamental architecture of e-commerce sites is essential for developers. To address this, this week’s UT Austin Coding Boot Camp challenge involved modifying starter code to build the back end for an E-commerce site using Express.js and Sequelize to interact with a PostgreSQL database. This application was built to provide a back end for an e-commerce website that uses the latest technologies so that a manager can work to ensure that his or her company can compete with other e-commerce internet retail companies.
+
+This E-Commerce application demonstrates a functional API capable of handling CRUD operations for categories, products, and tags. It also manages data in a complex database by incorporating several relational data tables. Additionally, this project includes database configuration, schema creation, data seeding, models for products, categories, tags, and product tags, and API route testing. 
 
 
 ## Table of Contents
 
 - [ORM: E-Commerce Backend](#orm-e-commerce-backend)
-  - [Description \*\*\*](#description-)
+  - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
@@ -21,6 +24,7 @@
   - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions)
+
 
 ## User Story
 
@@ -45,6 +49,7 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
+
 
 ## Technologies Used 
 
@@ -75,6 +80,7 @@ To install the ORM E-Commerce Background application, follow the following steps
      - Note: for `'your_postgresql_username'` enter your PostgreSQL username and for `'your_postgresql_password'` enter your PostgreSQL password.
 8. Ensure that PostgreSQL is installed on your computer to initialize the database.
 9.  Ensure that Insomnia is installed on your computer for unit testing.
+
 
 ## Usage
 
