@@ -83,7 +83,7 @@ To use the ORM E-Commerce Background application, follow the following steps:
 1. Open the Postgres Shell by typing the command `psql -U postgres` in the terminal.
 2. Enter your user database password.
 3. Create the `ecommerce_db` database by typing the command `\i db/schema.sql;` in the terminal.
-4. Close out of the Postgres Shell by entering `Control + C`.
+4. Close out of the Postgres Shell by entering `\q` in the terminal.
 5. Seed the database by entering `npm run seed` in the terminal.
 6. Once your PostgreSQL database is active, navigate to the project directory and start the application by typing `npm start` in the terminal.
 7. For unit testing instructions, navigate to the "Tests" section of the README. 
@@ -106,18 +106,26 @@ The following screenshot demonstrates the application's functionality and appear
 
 Test the following API routes using Insomnia or a similar API client:
 
-- GET `/api/categories`
-- GET `/api/products`
-- GET `/api/tags`
-- POST `/api/categories`
-- POST `/api/products`
-- POST `/api/tags`
-- PUT `/api/categories/:id`
-- PUT `/api/products/:id`
-- PUT `/api/tags/:id`
-- DELETE `/api/categories/:id`
-- DELETE `/api/products/:id`
-- DELETE `/api/tags/:id`
+- Categories
+  - GET `/api/categories`: Get all categories.
+  - GET `/api/categories/:id`: Get a single category by id.
+  - POST `/api/categories`: Create a new category.
+  - PUT `/api/categories/:id`: Update a category by id.
+  - DELETE `/api/categories/:id`: Delete a category by id.
+
+- Products
+  - GET `/api/products`: Get all products.
+  - GET `/api/products/:id`: Get a single product by id.
+  - POST `/api/products`: Create a new product.
+  - PUT `/api/products/:id`: Update a product by id.
+  - DELETE `/api/products/:id`: Delete a product by id.
+
+- Tags
+  - GET `/api/tags`: Get all tags.
+  - GET `/api/tags/:id`: Get a single tag by id.
+  - POST `/api/tags`: Create a new tag.
+  - PUT `/api/tags/:id`: Update a tag by id.
+  - DELETE `/api/tags/:id`: Delete a tag by id.
 
 ## Links ***
 
